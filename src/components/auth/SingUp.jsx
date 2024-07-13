@@ -98,7 +98,7 @@ const SignUp = ({ setHasAccount }) => {
             <button type='submit'>Sign Up</button>
             {error && <p>{errorMessage}</p>}
           </form>
-          <button onClick={handleGoogleSignUp} className='googleSignUpButton'>Sign In with Google</button>
+          <button onClick={handleGoogleSignUp} className='googleSignUpButton'>Sign Up with Google</button>
           <div className='signupContainer__box__login'>
             <p>
               Already have an account? <button onClick={() => setHasAccount(true)}>Sign In</button>
