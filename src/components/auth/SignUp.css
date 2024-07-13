@@ -1,0 +1,106 @@
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.signupContainer__box {
+    background-color:  #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.signupContainer__box__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupContainer__box__inner h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.signupContainer__box__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signupContainer__box__form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signupContainer__box__form button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signupContainer__box__form button:hover {
+    background-color: #0056b3;
+}
+
+.signupContainer__box__login {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signupContainer__box__login button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signupContainer__box__login button:hover {
+    color: #0056b3;
+}
+.googleSignInButton, .googleSignUpButton {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #db4437;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+  
+.googleSignInButton:hover, .googleSignUpButton:hover {
+    background-color: #c23321;
+}
+
+@media (max-width: 600px) {
+    .signupContainer__box {
+        padding: 20px;
+    }
+
+    .signupContainer__box__inner h1 {
+        font-size: 20px;
+    }
+
+    .signupContainer__box__form input, .signupContainer__box__form button {
+        font-size: 14px;
+    }
+}
